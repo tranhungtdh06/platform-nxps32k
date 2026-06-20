@@ -22,6 +22,10 @@
       "owner": "platformio",
       "version": "~1.90201.0"
     },
+    "tool-jlink": {
+      "type": "uploader",
+      "owner": "platformio"
+    },
     "framework-s32k144-baremetal": {
       "type": "framework",
       "optional": true,
