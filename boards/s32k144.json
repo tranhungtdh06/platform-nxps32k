@@ -1,0 +1,20 @@
+{
+  "build": {
+    "cpu": "cortex-m4",
+    "mcu": "s32k144",
+    "f_cpu": "112000000L",
+    "core": "s32k"
+  },
+  "debug": {
+    "jlink_device": "S32K144"
+  },
+  "frameworks": ["baremetal"],
+  "name": "NXP S32K144",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 524288,
+    "protocol": "jlink"
+  },
+  "url": "https://www.nxp.com",
+  "vendor": "NXP"
+}
