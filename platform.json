@@ -1,5 +1,6 @@
 {
   "name": "nxps32k",
+  "version": "1.0.0",
   "title": "NXP S32K Series",
   "description": "Open-source PlatformIO for NXP S32K Automotive MCUs",
   "url": "https://github.com/tranhungtdh06/platform-nxps32k",
@@ -7,6 +8,13 @@
   "license": "MIT",
   "engines": {
     "platformio": "^6.0.0"
+  },
+  "frameworks": {
+    "baremetal": {
+      "package": "framework-s32k144-baremetal",
+      "script": "builder/frameworks/baremetal.py",
+      "description": "NXP S32K Bare-metal framework"
+    }
   },
   "packages": {
     "toolchain-gccarmnoneeabi": {
