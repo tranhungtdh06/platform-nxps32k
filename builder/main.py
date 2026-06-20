@@ -38,8 +38,6 @@ env.Replace(
     ]
 )
 
-# Kích hoạt framework nếu người dùng có chọn
-env.BuildFrameworks(env.get("PIOFRAMEWORK"))
 
 # Tạo file thực thi
 target_elf = env.BuildProgram()
