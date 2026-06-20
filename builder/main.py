@@ -62,7 +62,6 @@ env.Replace(
         "-device", board.get("debug.jlink_device"), 
         "-if", "SWD", 
         "-speed", "4000", 
-        "-autorun", "0", 
         "-CommanderScript", "upload.jlink"
     ],
     UPLOADCMD="$UPLOADER $UPLOADERFLAGS"
