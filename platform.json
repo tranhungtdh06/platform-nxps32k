@@ -9,6 +9,13 @@
   "engines": {
     "platformio": "^6.0.0"
   },
+  "frameworks": {
+    "baremetal": {
+      "package": "framework-s32k144-baremetal",
+      "script": "builder/frameworks/baremetal.py",
+      "description": "NXP S32K Bare-metal framework"
+    }
+  },
   "packages": {
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
